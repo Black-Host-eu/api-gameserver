@@ -1,6 +1,6 @@
 <?php
 
-$url = "https://game.host-control.eu/api/application/users";
+$url = "https://game.host-control.eu/api/application/servers";
 
 $curl = curl_init($url);
 curl_setopt($curl, CURLOPT_URL, $url);
