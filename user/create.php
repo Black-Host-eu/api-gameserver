@@ -14,6 +14,7 @@ $headers = array(
 );
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 
+// Disclaimer: Ein Benutzer benötigt kein Passwort - Alle Infos werden per Mail verschickt.
 $data = <<<DATA
 {
   "email": "example10@example.com",
